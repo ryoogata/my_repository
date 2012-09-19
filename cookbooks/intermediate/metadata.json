@@ -1,0 +1,30 @@
+{
+  "conflicting": {
+  },
+  "replacing": {
+  },
+  "maintainer": "Ryo Ogata",
+  "name": "intermediate",
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "license": "All rights reserved",
+  "description": "Installs/Configures intermediate",
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "attributes": {
+  },
+  "providing": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "suggestions": {
+  },
+  "platforms": {
+  },
+  "maintainer_email": "ryo.ogata@gmail.com",
+  "recipes": {
+    "intermediate::default": "Prints hello world output"
+  }
+}
