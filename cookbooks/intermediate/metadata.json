@@ -1,30 +1,31 @@
 {
-  "conflicting": {
-  },
-  "replacing": {
-  },
-  "maintainer": "Ryo Ogata",
-  "name": "intermediate",
-  "version": "0.0.1",
-  "groupings": {
-  },
-  "license": "All rights reserved",
-  "description": "Installs/Configures intermediate",
-  "dependencies": {
-  },
-  "recommendations": {
-  },
-  "attributes": {
-  },
-  "providing": {
-  },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "suggestions": {
-  },
-  "platforms": {
-  },
-  "maintainer_email": "ryo.ogata@gmail.com",
   "recipes": {
     "intermediate::default": "Prints hello world output"
+  },
+  "dependencies": {
+    "rightscale": ">= 0.0.0"
+  },
+  "license": "All rights reserved",
+  "platforms": {
+  },
+  "conflicting": {
+  },
+  "suggestions": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "version": "0.0.1",
+  "replacing": {
+  },
+  "name": "intermediate",
+  "attributes": {
+  },
+  "maintainer_email": "ryo.ogata@gmail.com",
+  "maintainer": "Ryo Ogata",
+  "description": "Installs/Configures intermediate",
+  "recommendations": {
+  },
+  "groupings": {
+  },
+  "providing": {
   }
 }
