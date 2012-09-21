@@ -5,6 +5,7 @@ description      "Installs/Configures about_city"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.1"
 
+
 depends "rightscale"
 
 recipe "about_city::my_city","Information about my city"
@@ -12,7 +13,7 @@ recipe "about_city::my_city","Information about my city"
 # Required Input #
 attribute "about_city/city_name",
 	:display_name => "City Name",
-	:description => "The city where I current live.",
+	:description => "The city where I currently live.",
 	:required => "required",
 	:recipes => ["about_city::my_city"]
 
@@ -23,8 +24,8 @@ attribute "about_city/rain",
 	:required => "recommended",
 	:choice => ["yes", "no"],
 	:default => "no",
-	:recipes => ["about_city::my_city"]
-
+	:recipes => ["about_city::my_city"]                                       
+                                 
 # Optional Input #
 attribute "about_city/temperature",
 	:display_name => "Temperature",
