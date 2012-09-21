@@ -17,16 +17,15 @@ attribute "about_city/city_name",
 	:required => "required",
 	:recipes => ["about_city::my_city"]
 
-# Recommended Input #
-attribute "about_city/rain",
+# Optional Input #
+attribute "app_passenger/project/environment",
 	:display_name => "Raining",
 	:description => "Is it raining? Yes or No",
-	:required => "recommended",
 	:choice => ["yes", "no"],
-	:default => "no",
-	:recipes => ["about_city::my_city"]                                       
+	:required => "optional",
+	:default => "yes",
+	:recipes => ["about_city::my_city"]
                                  
-# Optional Input #
 attribute "about_city/temperature",
 	:display_name => "Temperature",
 	:description => "Current temperature in the city",
