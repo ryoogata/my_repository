@@ -18,7 +18,7 @@ attribute "about_city/city_name",
 	:recipes => ["about_city::my_city"]
 
 # Optional Input #
-attribute "app_passenger/project/environment",
+attribute "about_city/rain",
 	:display_name => "Raining",
 	:description => "Is it raining? Yes or No",
 	:choice => ["yes", "no"],
