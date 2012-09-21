@@ -1,31 +1,44 @@
 {
-  "license": "All rights reserved",
-  "version": "0.0.1",
+  "replacing": {
+  },
   "platforms": {
   },
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "license": "All rights reserved",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "recipes": {
+    "about_me::default": "Print my first name and several of my favorite things as output."
+  },
   "attributes": {
-  },
-  "name": "about_me",
-  "providing": {
-  },
-  "suggestions": {
+    "about_me/favorite/hobby": {
+      "recipes": [
+        "about_me::default"
+      ],
+      "calculated": false,
+      "type": "string",
+      "display_name": "Hobby",
+      "choice": [
+
+      ],
+      "required": "required",
+      "description": "My favorite hobby."
+    }
   },
   "dependencies": {
     "rightscale": ">= 0.0.0"
   },
-  "groupings": {
-  },
-  "recipes": {
-    "about_me::default": "Print my first name and several of my favorite things as output."
+  "conflicting": {
   },
   "maintainer_email": "YOUR_EMAIL",
-  "maintainer": "YOUR_COMPANY_NAME",
-  "replacing": {
+  "suggestions": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "name": "about_me",
+  "description": "Installs/Configures about_me",
+  "groupings": {
+  },
+  "version": "0.0.1",
+  "providing": {
   },
   "recommendations": {
-  },
-  "description": "Installs/Configures about_me",
-  "conflicting": {
   }
 }
